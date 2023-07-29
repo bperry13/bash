@@ -1,5 +1,7 @@
 -------------------- Bash Notes --------------------
 
+which $SHELL //finds the path
+
 always start with #!/bin/bash (Linux)
 
 good idea to save all scripts to ~/bin/ directory
