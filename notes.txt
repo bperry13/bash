@@ -1,0 +1,44 @@
+-------------------- Bash Notes --------------------
+
+always start with #!/bin/bash (Linux)
+
+good idea to save all scripts to ~/bin/ directory
+
+if script needs "execute" permission use: chmod +x script.sh
+
+configuration file on Linux: ~/.bashrc on MacOSX: ~/bash_profile
+PATH=~/bin:$PATH
+
+to run a script use ./script.sh
+
+echo "Hello Brett" //prints string to screen
+
+variables ------------------------------------------
+
+greeting="Hello" //assigns "Hello" to variable greeting
+echo $greeting   //calls the variable
+
+conditionals ---------------------------------------
+
+if [ $index -lt 5 ]
+then
+  echo $index
+else
+  echo 5
+fi 
+
+-eq //equal
+-ne //not equal
+-le //less than or equal
+-lt //less than
+-ge //greater than or equal
+-gt //greater than
+-z //is null
+
+note: if comparing strings use quotation marks
+== //equal
+!= //not equal
+if [ "$foo" == "$bar" ] 
+
+
+
